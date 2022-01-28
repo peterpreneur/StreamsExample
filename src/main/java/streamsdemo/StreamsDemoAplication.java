@@ -4,8 +4,9 @@ import java.sql.Date;
 import java.util.stream.IntStream;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
 
-@SpringBootApplication
+@SpringBootConfiguration
 public class StreamsDemoAplication {
 	
 	public static void main(String[] args) {
