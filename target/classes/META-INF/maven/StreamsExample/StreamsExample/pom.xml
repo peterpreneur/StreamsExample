@@ -5,4 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>StreamsExample</name>
   <description>StreamsExample</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot</artifactId>
+  		<version>2.6.2</version>
+  	</dependency>
+  </dependencies>
 </project>
