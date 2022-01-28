@@ -1,7 +1,6 @@
 package streamsdemo;
 
-import java.sql.Date;
-import java.util.stream.IntStream;
+import java.util.Date;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
@@ -10,7 +9,7 @@ import org.springframework.boot.SpringBootConfiguration;
 public class StreamsDemoAplication {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(StreamsDemoApplication.class, args);
+		SpringApplication.run(SpringApplication.class, args);
 		
 		//Date start = new Date();
 		//IntStream.range(0,1000).parallel().forEach(i->System.out.prinln(i));
